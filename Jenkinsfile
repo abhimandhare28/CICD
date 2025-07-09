@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'abhishek0509/demo'
+        DOCKER_IMAGE = 'abhishek0509/jenkins'
         AWS_REGION = 'us-west-1'
         CLUSTER_NAME = 'ecommerce-cluster'
     }
