@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'abhishek0509/jenkins'
         AWS_REGION = 'us-west-1'
-        CLUSTER_NAME = 'ecommerce-cluster'
+        CLUSTER_NAME = 'ecommerce-cluster-1'
     }
 
     stages {
